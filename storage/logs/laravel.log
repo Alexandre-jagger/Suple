@@ -1,0 +1,10 @@
+[2024-06-14 19:51:41] local.ERROR: syntax error, unexpected identifier "artisan" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"artisan\" at C:\\Users\\Xand\\app-name\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Artisan.php:5)
+[stacktrace]
+#0 C:\\Users\\Xand\\app-name\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}('C:\\\\Users\\\\Xand\\\\a...')
+#1 C:\\Users\\Xand\\app-name\\routes\\console.php(17): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#2 C:\\Users\\Xand\\app-name\\app\\Console\\Kernel.php(30): require('C:\\\\Users\\\\Xand\\\\a...')
+#3 C:\\Users\\Xand\\app-name\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(389): App\\Console\\Kernel->commands()
+#4 C:\\Users\\Xand\\app-name\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\Users\\Xand\\app-name\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
